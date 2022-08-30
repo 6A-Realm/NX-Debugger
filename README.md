@@ -3,6 +3,7 @@
 A Nintendo Switch (CFW) error code debugger. Based off [BETCH](https://github.com/tumGER/BETCH)
 
 ## Invite:
+Bot no longer online
 [Click here to invite public version of the bot](https://discord.com/oauth2/authorize?client_id=944063579005538354&scope=bot&permissions=309237648384)
 
 ## Support:
