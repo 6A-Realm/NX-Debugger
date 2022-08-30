@@ -1,0 +1,1499 @@
+{
+    "1": {
+        "name": "Svc",
+        "5": null,
+        "6": null,
+        "7": "OutOfSessions",
+        "14": "InvalidArgument",
+        "33": "NotImplemented",
+        "54": "StopProcessingException",
+        "57": "NoSynchronizationObject",
+        "59": "TerminationRequested",
+        "70": "NoEvent",
+        "74": null,
+        "101": "InvalidSize",
+        "102": "InvalidAddress",
+        "103": "OutOfResource",
+        "104": "OutOfMemory",
+        "105": "OutOfHandles",
+        "106": "InvalidCurrentMemory",
+        "108": "InvalidNewMemoryPermission",
+        "109": null,
+        "110": "InvalidMemoryRegion",
+        "112": "InvalidPriority",
+        "113": "InvalidCoreId",
+        "114": "InvalidHandle",
+        "115": "InvalidPointer",
+        "116": "InvalidCombination",
+        "117": "TimedOut",
+        "118": "Cancelled",
+        "119": "OutOfRange",
+        "120": "InvalidEnumValue",
+        "121": "NotFound",
+        "122": "Busy",
+        "123": "SessionClosed",
+        "124": "NotHandled",
+        "125": "InvalidState",
+        "126": "ReservedUsed",
+        "127": "NotSupported",
+        "128": "Debug",
+        "129": "NoThread",
+        "130": "UnknownThread",
+        "131": "PortClosed",
+        "132": "LimitReached",
+        "133": "InvalidMemoryPool",
+        "258": "ReceiveListBroken",
+        "259": "OutOfAddressSpace",
+        "260": "MessageTooLarge",
+        "512": null,
+        "513": null,
+        "514": null,
+        "515": null,
+        "516": null,
+        "517": "InvalidProcessId",
+        "518": "InvalidThreadId",
+        "519": "InvalidId",
+        "520": "ProcessTerminated",
+        "1023": null
+    },
+    "2": {
+        "name": "Fs",
+        "1": "ResultPathNotFound",
+        "2": "ResultPathAlreadyExists",
+        "7": "ResultTargetLocked",
+        "35": "UsableSpaceNotEnoughMmcCalibration",
+        "36": "UsableSpaceNotEnoughMmcSafe",
+        "37": "UsableSpaceNotEnoughMmcUser",
+        "38": "UsableSpaceNotEnoughMmcSystem",
+        "39": "ResultUsableSpaceNotEnoughSdCard",
+        "50": "ResultUnsupportedSdkVersion",
+        "60": "ResultMountNameAlreadyExists",
+        "1001": "ResultPartitionNotFound",
+        "1002": "ResultTargetNotFound",
+        "2001": "PortSdCardNoDevice",
+        "2520": "GameCardCardNotInserted",
+        "2522": "GameCardCardNotActivated",
+        "2540": "GameCardInvalidSecureAccess",
+        "2541": "GameCardInvalidNormalAccess",
+        "2542": "GameCardInvalidAccessAcrossMode",
+        "2544": "GameCardInitialDataMismatch",
+        "2545": "GameCardInitialNotFilledWithZero",
+        "2546": "GameCardKekIndexMismatch",
+        "2551": "GameCardCardHeaderReadFailure",
+        "2600": "GameCardShouldTransitFromInitialToNormal",
+        "2601": "GameCardShouldTransitFromNormalModeToSecure",
+        "2602": "GameCardShouldTransitFromNormalModeToDebug",
+        "2634": "GameCardSendFirmwareFailure",
+        "2637": "GameCardReceiveCertificateFailure",
+        "2640": "GameCardSendSocCertificateFailure",
+        "2645": "GameCardReceiveRandomValueFailure",
+        "2646": "GameCardSendRandomValueFailure",
+        "2651": "GameCardReceiveDeviceChallengeFailure",
+        "2652": "GameCardRespondDeviceChallengeFailure",
+        "2653": "GameCardSendHostChallengeFailure",
+        "2654": "GameCardReceiveChallengeResponseFailure",
+        "2655": "GameCardChallengeAndResponseFailure",
+        "2668": "GameCardSplGenerateRandomBytesFailure",
+        "2671": "GameCardReadRegisterFailure",
+        "2672": "GameCardWriteRegisterFailure",
+        "2673": "GameCardEnableCardBusFailure",
+        "2674": "GameCardGetCardHeaderFailure",
+        "2675": "GameCardAsicStatusError",
+        "2676": "GameCardChangeGcModeToSecureFailure",
+        "2677": "GameCardChangeGcModeToDebugFailure",
+        "2678": "GameCardReadRmaInfoFailure",
+        "2692": "GameCardStateCardSecureModeRequired",
+        "2693": "GameCardStateCardDebugModeRequired",
+        "2731": "GameCardCommandReadId1Failure",
+        "2732": "GameCardCommandReadId2Failure",
+        "2733": "GameCardCommandReadId3Failure",
+        "2735": "GameCardCommandReadPageFailure",
+        "2737": "GameCardCommandWritePageFailure",
+        "2738": "GameCardCommandRefreshFailure",
+        "2742": "GameCardCommandReadCrcFailure",
+        "2743": "GameCardCommandEraseFailure",
+        "2744": "GameCardCommandReadDevParamFailure",
+        "2745": "GameCardCommandWriteDevParamFailure",
+        "2904": "GameCardDebugCardReceivedIdMismatch",
+        "2905": "GameCardDebugCardId1Mismatch",
+        "2906": "GameCardDebugCardId2Mismatch",
+        "2954": "GameCardFsCheckHandleInGetStatusFailure",
+        "2960": "GameCardFsCheckHandleInCreateReadOnlyFailure",
+        "2961": "GameCardFsCheckHandleInCreateSecureReadOnlyFailure",
+        "3001": "ResultNotImplemented",
+        "3003": "ResultAlreadyExists",
+        "3005": "ResultOutOfRange",
+        "3201": "AllocationMemoryFailedInFatFileSystemA",
+        "3202": "AllocationMemoryFailedInFatFileSystemB",
+        "3203": "AllocationMemoryFailedInFatFileSystemC",
+        "3204": "AllocationMemoryFailedInFatFileSystemD",
+        "3205": "AllocationMemoryFailedInFatFileSystemE",
+        "3206": "AllocationMemoryFailedInFatFileSystemF",
+        "3207": "AllocationMemoryFailedInFatFileSystemG",
+        "3208": "AllocationMemoryFailedInFatFileSystemH",
+        "3244": "AllocationMemoryFailedInSdCardA",
+        "3245": "AllocationMemoryFailedInSdCardB",
+        "3246": "AllocationMemoryFailedInSystemSaveDataA",
+        "3247": "AllocationMemoryFailedInRomFsFileSystemA",
+        "3248": "AllocationMemoryFailedInRomFsFileSystemB",
+        "3249": "AllocationMemoryFailedInRomFsFileSystemC",
+        "3359": "AllocationMemoryFailedInSdmmcStorageServiceA",
+        "3360": "AllocationMemoryFailedInBuiltInStorageCreatorA",
+        "3365": "AllocationMemoryFailedInRegisterA",
+        "4318": "IncorrectSaveDataFileSystemMagicCode",
+        "4513": "InvalidAcidFileSize",
+        "4514": "InvalidAcidSize",
+        "4515": "InvalidAcid",
+        "4516": "AcidVerificationFailed",
+        "4517": "InvalidNcaSignature",
+        "4518": "NcaHeaderSignature1VerificationFailed",
+        "4519": "NcaHeaderSignature2VerificationFailed",
+        "4520": "NcaFsHeaderHashVerificationFailed",
+        "4521": "InvalidNcaKeyIndex",
+        "4523": "InvalidNcaFsHeaderEncryptionType",
+        "4524": "InvalidNcaPatchInfoIndirectSize",
+        "4525": "InvalidNcaPatchInfoAesCtrExSize",
+        "4526": "InvalidNcaPatchInfoAesCtrExOffset",
+        "4527": "InvalidNcaId",
+        "4528": "InvalidNcaHeader",
+        "4529": "InvalidNcaFsHeader",
+        "4532": "InvalidHierarchicalSha256BlockSize",
+        "4533": "InvalidHierarchicalSha256LayerCount",
+        "4534": "HierarchicalSha256BaseStorageTooLarge",
+        "4535": "HierarchicalSha256HashVerificationFailed",
+        "4642": "InvalidSha256PartitionHashTarget",
+        "4643": "Sha256PartitionHashVerificationFailed",
+        "4644": "PartitionSignatureVerificationFailed",
+        "4645": "Sha256PartitionSignatureVerificationFailed",
+        "4646": "InvalidPartitionEntryOffset",
+        "4647": "InvalidSha256PartitionMetaDataSize",
+        "4684": "InvalidFatFileNumber",
+        "4686": "InvalidFatFormatBisUser",
+        "4687": "InvalidFatFormatBisSystem",
+        "4688": "InvalidFatFormatBisSafe",
+        "4689": "InvalidFatFormatBisCalibration",
+        "4743": "AesXtsFileSystemFileHeaderCorruptedOnFileOpen",
+        "4744": "AesXtsFileSystemFileNoHeaderOnFileOpen",
+        "5121": "FatFsFormatUnsupportedSize",
+        "5122": "FatFsFormatInvalidBpb",
+        "5123": "FatFsFormatInvalidParameter",
+        "5124": "FatFsFormatIllegalSectorsA",
+        "5125": "FatFsFormatIllegalSectorsB",
+        "5126": "FatFsFormatIllegalSectorsC",
+        "5127": "FatFsFormatIllegalSectorsD",
+        "5301": "UnexpectedInMountTableA",
+        "6003": "ResultTooLongPath",
+        "6004": "ResultInvalidCharacter",
+        "6005": "ResultInvalidPathFormat",
+        "6006": "ResultDirectoryUnobtainable",
+        "6061": "ResultInvalidOffset",
+        "6062": "ResultInvalidSize",
+        "6063": "ResultNullptrArgument",
+        "6064": "ResultInvalidAlignment",
+        "6065": "ResultInvalidMountName",
+        "6066": "ResultExtensionSizeTooLarge",
+        "6067": "ResultExtensionSizeInvalid",
+        "6201": "ResultFileExtensionWithoutOpenModeAllowAppend",
+        "6301": "UnsupportedCommitTarget",
+        "6302": "UnsupportedSetSizeForNotResizableSubStorage",
+        "6303": "UnsupportedSetSizeForResizableSubStorage",
+        "6304": "UnsupportedSetSizeForMemoryStorage",
+        "6305": "UnsupportedOperateRangeForMemoryStorage",
+        "6306": "UnsupportedOperateRangeForFileStorage",
+        "6307": "UnsupportedOperateRangeForFileHandleStorage",
+        "6308": "UnsupportedOperateRangeForSwitchStorage",
+        "6309": "UnsupportedOperateRangeForStorageServiceObjectAdapter",
+        "6310": "UnsupportedWriteForAesCtrCounterExtendedStorage",
+        "6311": "UnsupportedSetSizeForAesCtrCounterExtendedStorage",
+        "6312": "UnsupportedOperateRangeForAesCtrCounterExtendedStorage",
+        "6313": "UnsupportedWriteForAesCtrStorageExternal",
+        "6314": "UnsupportedSetSizeForAesCtrStorageExternal",
+        "6315": "UnsupportedSetSizeForAesCtrStorage",
+        "6316": "UnsupportedSetSizeForHierarchicalIntegrityVerificationStorage",
+        "6317": "UnsupportedOperateRangeForHierarchicalIntegrityVerificationStorage",
+        "6318": "UnsupportedSetSizeForIntegrityVerificationStorage",
+        "6319": "UnsupportedOperateRangeForWritableIntegrityVerificationStorage",
+        "6320": "UnsupportedOperateRangeForIntegrityVerificationStorage",
+        "6321": "UnsupportedSetSizeForBlockCacheBufferedStorage",
+        "6322": "UnsupportedOperateRangeForWritableBlockCacheBufferedStorage",
+        "6323": "UnsupportedOperateRangeForBlockCacheBufferedStorage",
+        "6324": "UnsupportedWriteForIndirectStorage",
+        "6325": "UnsupportedSetSizeForIndirectStorage",
+        "6326": "UnsupportedOperateRangeForIndirectStorage",
+        "6327": "UnsupportedWriteForZeroStorage",
+        "6328": "UnsupportedSetSizeForZeroStorage",
+        "6329": "UnsupportedSetSizeForHierarchicalSha256Storage",
+        "6330": "UnsupportedWriteForReadOnlyBlockCacheStorage",
+        "6331": "UnsupportedSetSizeForReadOnlyBlockCacheStorage",
+        "6332": "UnsupportedSetSizeForIntegrityRomFsStorage",
+        "6333": "UnsupportedSetSizeForDuplexStorage",
+        "6334": "UnsupportedOperateRangeForDuplexStorage",
+        "6335": "UnsupportedSetSizeForHierarchicalDuplexStorage",
+        "6336": "UnsupportedGetSizeForRemapStorage",
+        "6337": "UnsupportedSetSizeForRemapStorage",
+        "6338": "UnsupportedOperateRangeForRemapStorage",
+        "6339": "UnsupportedSetSizeForIntegritySaveDataStorage",
+        "6340": "UnsupportedOperateRangeForIntegritySaveDataStorage",
+        "6341": "UnsupportedSetSizeForJournalIntegritySaveDataStorage",
+        "6342": "UnsupportedOperateRangeForJournalIntegritySaveDataStorage",
+        "6343": "UnsupportedGetSizeForJournalStorage",
+        "6344": "UnsupportedSetSizeForJournalStorage",
+        "6345": "UnsupportedOperateRangeForJournalStorage",
+        "6346": "UnsupportedSetSizeForUnionStorage",
+        "6347": "UnsupportedSetSizeForAllocationTableStorage",
+        "6348": "UnsupportedReadForWriteOnlyGameCardStorage",
+        "6349": "UnsupportedSetSizeForWriteOnlyGameCardStorage",
+        "6350": "UnsupportedWriteForReadOnlyGameCardStorage",
+        "6351": "UnsupportedSetSizeForReadOnlyGameCardStorage",
+        "6352": "UnsupportedOperateRangeForReadOnlyGameCardStorage",
+        "6353": "UnsupportedSetSizeForSdmmcStorage",
+        "6354": "UnsupportedOperateRangeForSdmmcStorage",
+        "6355": "UnsupportedOperateRangeForFatFile",
+        "6356": "UnsupportedOperateRangeForStorageFile",
+        "6357": "UnsupportedSetSizeForInternalStorageConcatenationFile",
+        "6358": "UnsupportedOperateRangeForInternalStorageConcatenationFile",
+        "6359": "UnsupportedQueryEntryForConcatenationFileSystem",
+        "6360": "UnsupportedOperateRangeForConcatenationFile",
+        "6361": "UnsupportedSetSizeForZeroBitmapFile",
+        "6362": "UnsupportedOperateRangeForFileServiceObjectAdapter",
+        "6363": "UnsupportedOperateRangeForAesXtsFile",
+        "6364": "UnsupportedWriteForRomFsFileSystem",
+        "6365": "UnsupportedCommitProvisionallyForRomFsFileSystem",
+        "6366": "UnsupportedGetTotalSpaceSizeForRomFsFileSystem",
+        "6367": "UnsupportedWriteForRomFsFile",
+        "6368": "UnsupportedOperateRangeForRomFsFile",
+        "6369": "UnsupportedWriteForReadOnlyFileSystem",
+        "6370": "UnsupportedCommitProvisionallyForReadOnlyFileSystem",
+        "6371": "UnsupportedGetTotalSpaceSizeForReadOnlyFileSystem",
+        "6372": "UnsupportedWriteForReadOnlyFile",
+        "6373": "UnsupportedOperateRangeForReadOnlyFile",
+        "6374": "UnsupportedWriteForPartitionFileSystem",
+        "6375": "UnsupportedCommitProvisionallyForPartitionFileSystem",
+        "6376": "UnsupportedWriteForPartitionFile",
+        "6377": "UnsupportedOperateRangeForPartitionFile",
+        "6378": "UnsupportedOperateRangeForTmFileSystemFile",
+        "6379": "UnsupportedWriteForSaveDataInternalStorageFileSystem",
+        "6382": "UnsupportedCommitProvisionallyForApplicationTemporaryFileSystem",
+        "6383": "UnsupportedCommitProvisionallyForSaveDataFileSystem",
+        "6384": "UnsupportedCommitProvisionallyForDirectorySaveDataFileSystem",
+        "6385": "UnsupportedWriteForZeroBitmapHashStorageFile",
+        "6386": "UnsupportedSetSizeForZeroBitmapHashStorageFile",
+        "6451": "ResultNcaExternalKeyUnregisteredDeprecated",
+        "6455": "ResultFileNotClosed",
+        "6456": "ResultDirectoryNotClosed",
+        "6457": "ResultWriteModeFileNotClosed",
+        "6458": "ResultAllocatorAlreadyRegistered",
+        "6459": "ResultDefaultAllocatorAlreadyUsed",
+        "6461": "ResultAllocatorAlignmentViolation",
+        "6465": "ResultUserNotExist",
+        "6602": "FileNotFound",
+        "6603": "DirectoryNotFound",
+        "6706": "MappingTableFull",
+        "6709": "OpenCountLimit",
+        "6710": "MultiCommitFileSystemLimit",
+        "6811": "MapFull",
+        "6905": "NotMounted",
+        "7902": "DbmKeyNotFound",
+        "7903": "DbmFileNotFound",
+        "7904": "DbmDirectoryNotFound",
+        "7906": "DbmAlreadyExists",
+        "7907": "DbmKeyFull",
+        "7908": "DbmDirectoryEntryFull",
+        "7909": "DbmFileEntryFull",
+        "7914": "DbmInvalidOperation"
+    },
+    "3": {
+        "name": "Os",
+        "1": "ResultNoPermission",
+        "2": "ResultAccessViolation",
+        "3": "ResultBadRequest",
+        "4": "ResultBusy",
+        "5": "ResultDeadlock",
+        "6": "ResultInvalidAddress",
+        "7": "ResultInvalidParameter",
+        "8": "ResultOutOfMemory",
+        "9": "ResultOutOfResource",
+        "501": "InvalidHandle",
+        "502": "InvalidCurrentMemoryState",
+        "503": "InvalidTransferMemoryState",
+        "504": "InvalidTransferMemorySize",
+        "1023": "ResultInternalError"
+    },
+    "4": {
+        "name": "Htcs"
+    },
+    "5": {
+        "name": "Ncm",
+        "5": "ContentNotFound",
+        "7": "ContentMetaNotFound",
+        "12": "UnknownStorage",
+        "110": "InvalidContentMetaDatabase",
+        "190": "WriteToReadOnlyContentStorage"
+    },
+    "6": {
+        "name": "Dd",
+        "4": "InvalidMemoryState",
+        "8": "InvalidHandle"
+    },
+    "7": {
+        "name": "Osdbg"
+    },
+    "8": {
+        "name": "Lr",
+        "2": "ProgramNotFound",
+        "3": "DataNotFound",
+        "4": "UnknownResolver",
+        "5": "ApplicationNotFound",
+        "6": "HtmlDocumentNotFound",
+        "7": "AddOnContentNotFound",
+        "8": "ControlNotFound",
+        "9": "LegalInformationNotFound",
+        "10": "DebugProgramNotFound"
+    },
+    "9": {
+        "name": "Ldr",
+        "1": "TooLongArgument",
+        "2": "TooManyArguments",
+        "3": "TooLargeMeta",
+        "4": "InvalidMeta",
+        "5": "InvalidNso",
+        "6": "InvalidPath",
+        "7": "TooManyProcesses",
+        "8": "NotPinned",
+        "9": "InvalidProgramId",
+        "10": "InvalidVersion",
+        "51": "InsufficientAddressSpace",
+        "52": "InvalidNro",
+        "53": "InvalidNrr",
+        "54": "InvalidSignature",
+        "55": "InsufficientNroRegistrations",
+        "56": "InsufficientNrrRegistrations",
+        "57": "NroAlreadyLoaded",
+        "81": "InvalidAddress",
+        "82": "InvalidSize",
+        "84": "NotLoaded",
+        "85": "NotRegistered",
+        "87": "InvalidProcess",
+        "100": "UnknownCapability",
+        "103": "InvalidCapabilityKernelFlags",
+        "104": "InvalidCapabilitySyscallMask",
+        "106": "InvalidCapabilityMapRange",
+        "107": "InvalidCapabilityMapPage",
+        "111": "InvalidCapabilityInterruptPair",
+        "113": "InvalidCapabilityApplicationType",
+        "114": "InvalidCapabilityKernelVersion",
+        "115": "InvalidCapabilityHandleTable",
+        "116": "InvalidCapabilityDebugFlags"
+    },
+    "10": {
+        "name": "Sf",
+        "202": "InvalidCmifHeaderSize",
+        "211": "InvalidCmifInHeader",
+        "212": "InvalidCmifOutHeader",
+        "221": "UnknownMethodId",
+        "235": "InvalidInObjectCount",
+        "236": "InvalidOutObjectCount",
+        "301": "OutOfDomainEntry"
+    },
+    "11": {
+        "name": "Sf_Hipc",
+        "1": "NotSupported",
+        "102": "OutOfSessionMemory",
+        "141": "InsufficientPointerTransferBuffer",
+        "200": "OutOfDomains",
+        "301": "SessionClosed",
+        "402": "InvalidRequestSize",
+        "403": "UnknownCommandType",
+        "491": "TargetNotDomain"
+    },
+    "12": {
+        "name": "Tma"
+    },
+    "13": {
+        "name": "Dmnt"
+    },
+    "14": {
+        "name": "Gds"
+    },
+    "15": {
+        "name": "Pm",
+        "1": "ProcessNotFound",
+        "3": "NotTerminated",
+        "5": "ApplicationRunning"
+    },
+    "16": {
+        "name": "Ns",
+        "2": "Title-id not found.",
+        "120": "Sysupdate not required.",
+        "251": "Unexpected StorageId.",
+        "340": "IsAnyInternetRequestAccepted with the output from GetClientId returned false.",
+        "801": "SystemDeliveryInfo system_delivery_protocol_version is less than the system-setting.",
+        "802": "SystemDeliveryInfo system_delivery_protocol_version is larger than the system-setting.",
+        "892": "Unknown state ref-count is zero.",
+        "931": "Invalid SystemDeliveryInfo HMAC / invalid Meta Id."
+    },
+    "17": {
+        "name": "Bsdsockets"
+    },
+    "18": {
+        "name": "Htc"
+    },
+    "19": {
+        "name": "Tsc"
+    },
+    "20": {
+        "name": "Kvdb"
+    },
+    "21": {
+        "name": "Sm",
+        "1": "OutOfProcesses",
+        "2": "InvalidClient",
+        "3": "OutOfSessions",
+        "4": "AlreadyRegistered",
+        "5": "OutOfServices",
+        "6": "InvalidServiceName",
+        "7": "NotRegistered",
+        "8": "NotAllowed",
+        "9": "TooLargeAccessControl"
+    },
+    "22": {
+        "name": "Ro",
+        "2": "ResultOutOfAddressSpace",
+        "3": "ResultNroAlreadyLoaded",
+        "4": "ResultInvalidNroImage",
+        "6": "ResultInvalidNrrImage",
+        "8": "ResultMaxRegistration",
+        "9": "ResultNotAuthorized",
+        "1025": "InvalidAddress",
+        "1026": "InvalidSize",
+        "1028": "NotLoaded",
+        "1029": "NotRegistered",
+        "1030": "InvalidSession",
+        "1031": "InvalidProcess"
+    },
+    "23": {
+        "name": "Gc"
+    },
+    "24": {
+        "name": "Sdmmc"
+    },
+    "25": {
+        "name": "Ovln"
+    },
+    "26": {
+        "name": "Spl",
+        "1": "SecureMonitorNotImplemented",
+        "2": "SecureMonitorInvalidArgument",
+        "3": "SecureMonitorBusy",
+        "4": "SecureMonitorNoAsyncOperation",
+        "5": "SecureMonitorInvalidAsyncOperation",
+        "6": "SecureMonitorNotPermitted",
+        "100": "InvalidSize",
+        "101": "UnknownSecureMonitorError",
+        "102": "DecryptionFailed",
+        "104": "OutOfKeySlots",
+        "105": "InvalidKeySlot",
+        "106": "BootReasonAlreadySet",
+        "107": "BootReasonNotSet",
+        "108": "InvalidArgument"
+    },
+    "27": {
+        "name": "Socket"
+    },
+    "28": {
+        "name": null
+    },
+    "29": {
+        "name": "Htclow"
+    },
+    "30": {
+        "name": "Ddsf"
+    },
+    "31": {
+        "name": "Htcfs"
+    },
+    "32": {
+        "name": "Async"
+    },
+    "33": {
+        "name": "Util"
+    },
+    "34": {
+        "name": null
+    },
+    "35": {
+        "name": "Tipc",
+        "10": "Invalid command ID received by tipc processor.",
+        "15": "Invalid message format received by tipc processor.",
+        "100": "Tipc request was deferred for future processing (internal to the processor, never returned externally).",
+        "101": "Tipc object was closed (via close command 0xF, internal, never returned externally)."
+    },
+    "36": {
+        "name": null
+    },
+    "37": {
+        "name": null
+    },
+    "38": {
+        "name": null
+    },
+    "100": {
+        "name": "Eth"
+    },
+    "101": {
+        "name": "I2c"
+    },
+    "102": {
+        "name": "Gpio"
+    },
+    "103": {
+        "name": "Uart"
+    },
+    "104": {
+        "name": "Cpad"
+    },
+    "105": {
+        "name": "Settings",
+        "201": "SettingsNameNull",
+        "202": "SettingsItemKeyNull",
+        "203": "SettingsItemValueNull",
+        "205": "SettingsItemValueBufferNull",
+        "208": "Null setting value size buffer.",
+        "209": "Null debug mode flag buffer.",
+        "221": "SettingsNameEmpty",
+        "222": "SettingsItemKeyEmpty",
+        "241": "SettingsNameTooLong",
+        "242": "SettingsItemKeyTooLong",
+        "261": "SettingsNameInvalidFormat",
+        "262": "SettingsItemKeyInvalidFormat",
+        "621": "Null language code buffer.",
+        "625": "Language out of valid range.",
+        "631": "Null network settings buffer.",
+        "632": "Null network settings output count buffer.",
+        "641": "Null backlight settings buffer.",
+        "651": "Null Bluetooth device setting buffer.",
+        "652": "Null Bluetooth device setting output count buffer.",
+        "653": "Null Bluetooth enable flag buffer.",
+        "654": "Null Bluetooth AFH enable flag buffer.",
+        "655": "Null Bluetooth boost enable flag buffer.",
+        "656": "Null BLE pairing settings buffer.",
+        "657": "Null BLE pairing settings entry count buffer.",
+        "661": "Null external steady clock source ID buffer.",
+        "662": "Null user system clock context buffer.",
+        "663": "Null network system clock context buffer.",
+        "664": "Null user system clock automatic correction enabled flag buffer.",
+        "665": "Null shutdown RTC value buffer.",
+        "666": "Null external steady clock internal offset buffer.",
+        "671": "Null account settings buffer.",
+        "681": "Null audio volume buffer.",
+        "683": "Null ForceMuteOnHeadphoneRemoved buffer.",
+        "684": "Null headphone volume warning count buffer.",
+        "687": "Invalid audio output mode.",
+        "688": "Null headphone volume update flag buffer.",
+        "691": "Null console information upload flag buffer.",
+        "701": "Null automatic application download flag buffer.",
+        "702": "Null notification settings buffer.",
+        "703": "Null account notification settings entry count buffer.",
+        "704": "Null account notification settings buffer.",
+        "711": "Null vibration master volume buffer.",
+        "712": "Null NX controller settings buffer.",
+        "713": "Null NX controller settings entry count buffer.",
+        "714": "Null USB full key enable flag buffer.",
+        "721": "Null TV settings buffer.",
+        "722": "Null EDID buffer.",
+        "731": "Null data deletion settings buffer.",
+        "741": "Null initial system applet program ID buffer.",
+        "742": "Null overlay disp program ID buffer.",
+        "743": "Null IsInRepairProcess buffer.",
+        "744": "Null RequiresRunRepairTimeReviser buffer.",
+        "751": "Null device timezone location name buffer.",
+        "761": "Null primary album storage buffer.",
+        "771": "Null USB 3.0 enable flag buffer.",
+        "772": "Null USB Type-C power source circuit version buffer.",
+        "781": "Null battery lot buffer.",
+        "791": "Null serial number buffer.",
+        "801": "Null lock screen flag buffer.",
+        "803": "Null color set ID buffer.",
+        "804": "Null quest flag buffer.",
+        "805": "Null wireless certification file size buffer.",
+        "806": "Null wireless certification file buffer.",
+        "807": "Null initial launch settings buffer.",
+        "808": "Null device nickname buffer.",
+        "809": "Null battery percentage flag buffer.",
+        "810": "Null applet launch flags buffer.",
+        "1012": "Null wireless LAN enable flag buffer.",
+        "1021": "Null product model buffer.",
+        "1031": "Null NFC enable flag buffer.",
+        "1041": "Null ECI device certificate buffer.",
+        "1042": "Null E-Ticket device certificate buffer.",
+        "1051": "Null sleep settings buffer.",
+        "1061": "Null EULA version buffer.",
+        "1062": "Null EULA version entry count buffer.",
+        "1071": "Null LDN channel buffer.",
+        "1081": "Null SSL key buffer.",
+        "1082": "Null SSL certificate buffer.",
+        "1091": "Null telemetry flags buffer.",
+        "1101": "Null Gamecard key buffer.",
+        "1102": "Null Gamecard certificate buffer.",
+        "1111": "Null PTM battery lot buffer.",
+        "1112": "Null PTM fuel gauge parameter buffer.",
+        "1121": "Null ECI device key buffer.",
+        "1122": "Null E-Ticket device key buffer.",
+        "1131": "Null speaker parameter buffer.",
+        "1141": "Null firmware version buffer.",
+        "1142": "Null firmware version digest buffer.",
+        "1143": "Null rebootless system update version buffer.",
+        "1151": "Null Mii author ID buffer.",
+        "1161": "Null fatal flags buffer.",
+        "1171": "Null auto update enable flag buffer.",
+        "1181": "Null external RTC reset flag buffer.",
+        "1191": "Null push notification activity mode buffer.",
+        "1201": "Null service discovery control setting buffer.",
+        "1211": "Null error report share permission buffer.",
+        "1221": "Null LCD vendor ID buffer.",
+        "1231": "Null console SixAxis sensor acceleration bias buffer.",
+        "1232": "Null console SixAxis sensor angular velocity bias buffer.",
+        "1233": "Null console SixAxis sensor acceleration gain buffer.",
+        "1234": "Null console SixAxis sensor angular velocity gain buffer.",
+        "1235": "Null console SixAxis sensor angular velocity time bias buffer.",
+        "1236": "Null console SixAxis sensor angular acceleration buffer .",
+        "1241": "Null keyboard layout buffer.",
+        "1245": "Invalid keyboard layout.",
+        "1251": "Null web inspector flag buffer.",
+        "1252": "Null allowed SSL hosts buffer.",
+        "1253": "Null allowed SSL hosts entry count buffer.",
+        "1254": "Null host FS mount point buffer.",
+        "1271": "Null Amiibo key buffer.",
+        "1272": "Null Amiibo ECQV certificate buffer.",
+        "1273": "Null Amiibo ECDSA certificate buffer.",
+        "1274": "Null Amiibo ECQV BLS key buffer.",
+        "1275": "Null Amiibo ECQV BLS certificate buffer.",
+        "1276": "Null Amiibo ECQV BLS root certificate buffer."
+    },
+    "106": {
+        "name": "Ftm"
+    },
+    "107": {
+        "name": "Wlan"
+    },
+    "108": {
+        "name": "Xcd"
+    },
+    "109": {
+        "name": "Tmp451"
+    },
+    "110": {
+        "name": "Nifm"
+    },
+    "111": {
+        "name": "Codec"
+    },
+    "112": {
+        "name": "Lsm6ds3"
+    },
+    "113": {
+        "name": "Bluetooth"
+    },
+    "114": {
+        "name": "Vi",
+        "1": "ResultOperationFailed",
+        "6": "ResultNotSupported"
+    },
+    "115": {
+        "name": "Nfp"
+    },
+    "116": {
+        "name": "Time",
+        "0": "ResultNotInitialized",
+        "1": "ResultNoCapability",
+        "102": "OffsetInvalid",
+        "103": "UninitializedClock",
+        "200": "ResultNotComparable",
+        "201": "ResultOverflowed",
+        "801": "ResultOutOfMemory",
+        "901": "InvalidPointer",
+        "902": "OutOfRange",
+        "903": "InvalidTimeZoneBinary",
+        "989": "NotFound",
+        "990": "NotImplemented"
+    },
+    "117": {
+        "name": "Fgm"
+    },
+    "118": {
+        "name": "Oe"
+    },
+    "119": {
+        "name": "Bh1730fvc"
+    },
+    "120": {
+        "name": "Pcie"
+    },
+    "121": {
+        "name": "Friends",
+        "6": "ResultInternetRequestNotAccepted"
+    },
+    "122": {
+        "name": "Bcat",
+        "1": "ResultInvalidArgument",
+        "2": "ResultNotFound",
+        "3": "ResultLocked",
+        "4": "ResultAlreadyMounted",
+        "5": "ResultNotMounted",
+        "6": "ResultAlreadyOpened",
+        "7": "ResultNotOpened",
+        "8": "ResultInternetRequestNotAccepted",
+        "80": "ResultPassphraseNotSaved",
+        "81": "ResultDataVerificationFailed",
+        "90": "ResultNotPermitted",
+        "98": "ResultInvalidOperation"
+    },
+    "123": {
+        "name": "Ssl",
+        "11": "ResultErrorLower",
+        "13": "ResultInternalLogicError",
+        "102": "ResultInsufficientMemory",
+        "116": "ResultInvalidSocketDescriptor",
+        "129": "ResultInvalidCrlFormat",
+        "204": "ResultIoWouldBlock",
+        "205": "ResultIoTimeout",
+        "206": "ResultIoAborted",
+        "208": "ResultNoConnection",
+        "209": "ResultConnectionReset",
+        "210": "ResultConnectionAborted",
+        "211": "ResultSocketShutdown",
+        "212": "ResultNetworkDown",
+        "215": "ResultClientPkiAlreadyRegistered",
+        "218": "ResultMaxServerPkiRegistered",
+        "301": "ResultSslErrorInvalidCertDomain",
+        "302": "ResultSslErrorNoCertificate",
+        "303": "ResultSslErrorExpiredCertificate",
+        "304": "ResultSslErrorRevokedCertificate",
+        "305": "ResultSslErrorUnsupportedCertificate",
+        "306": "ResultSslErrorUnknownCertificate",
+        "307": "ResultSslErrorBadCertificate",
+        "308": "ResultSslErrorUnkownCa",
+        "309": "ResultSslErrorAccessDenied",
+        "310": "ResultSslErrorReceivedUnkownData",
+        "311": "ResultSslErrorReceivedMalformedData",
+        "312": "ResultSslErrorReceivedUnexpectedHandshakeData",
+        "313": "ResultSslErrorReceivedUnexpectedRecordData",
+        "314": "ResultSslErrorReceivedTooLongRecord",
+        "315": "ResultSslErrorUnexpectedHelloVerifyRequest",
+        "316": "ResultSslErrorUnexpectedCertificateStatusResponse",
+        "317": "ResultSslErrorInconsistentSignAlgorithm",
+        "318": "ResultSslErrorInsufficientSecurity",
+        "319": "ResultSslErrorDecryptionWithInvalidMac",
+        "321": "ResultSslErrorDigestCalculationFailed",
+        "322": "ResultSslErrorMacCalculationFailed",
+        "324": "ResultSslErrorNoExtendedField",
+        "325": "ResultSslErrorUntrustedOid",
+        "326": "ResultSslErrorInvalidPolicy",
+        "330": "ResultSslErrorDecompressionFailed",
+        "1501": "ResultSslAlertCloseNotify",
+        "1502": "ResultSslAlertUnexpectedMessage",
+        "1503": "ResultSslAlertBadRecordMac",
+        "1504": "ResultSslAlertDecriptionFailed",
+        "1505": "ResultSslAlertRecordOverfrlow",
+        "1506": "ResultSslAlertDecompressionFailure",
+        "1507": "ResultSslAlertHandshakeFailure",
+        "1509": "ResultSslAlertBadCertificate",
+        "1510": "ResultSslAlertUnsupportedCertificate",
+        "1511": "ResultSslAlertCertificateRevoked",
+        "1512": "ResultSslAlertCertificateExpired",
+        "1513": "ResultSslAlertCertificateUnkown",
+        "1514": "ResultSslAlertIllegalParameter",
+        "1515": "ResultSslAlertUnknownCa",
+        "1516": "ResultSslAlertAccessDenied",
+        "1517": "ResultSslAlertDecodeError",
+        "1518": "ResultSslAlertDecryptError",
+        "1519": "ResultSslAlertExportRestriction",
+        "1520": "ResultSslAlertProtocolVersion",
+        "1521": "ResultSslAlertInsufficientSecurity",
+        "1522": "ResultSslAlertInternalError",
+        "1523": "ResultSslAlertInappropriateFallback",
+        "1524": "ResultSslAlertUserCancelled",
+        "1525": "ResultSslAlertNoRenegotiation",
+        "1526": "ResultSslAlertUnsupportedExtention",
+        "1527": "ResultSslAlertCertificateUnobtainable",
+        "1528": "ResultSslAlertUnrecognizedName",
+        "1529": "ResultSslAlertBadCertificateStatusResponse",
+        "1530": "ResultSslAlertBadCertificateHashValue",
+        "5001": "Converted from NSS SSL error -12155 (SSL_ERROR_RX_SHORT_DTLS_READ).",
+        "5007": "Out-of-bounds error during error conversion."
+    },
+    "124": {
+        "name": "Account",
+        "1": "ResultCancelledByUser",
+        "20": "ResultInvalidUserId",
+        "22": "ResultInvalidApplication",
+        "30": "ResultNullptr",
+        "32": "ResultInvalidArrayLength",
+        "59": "ResultInternetConnectionRequestNotAccepted",
+        "3000": "ResultUnacceptableSystemVersion",
+        "3001": "ResultUnacceptableApplicationVersion",
+        "4007": "Account Permanent Ban.",
+        "4508": "Account Permanent Ban.",
+        "4517": "Account Ban.",
+        "4609": "Service Discontinued."
+    },
+    "125": {
+        "name": "News"
+    },
+    "126": {
+        "name": "Mii",
+        "1": "ResultInvalid",
+        "4": "ResultNotFound",
+        "67": "Invalid database signature value (should be \"NFDB\").",
+        "69": "Invalid database entry count.",
+        "204": "ResultDevelopmentOnly"
+    },
+    "127": {
+        "name": "Nfc"
+    },
+    "128": {
+        "name": "Am",
+        "2": "IStorage not available.",
+        "3": "No messages.",
+        "35": "Error while launching applet.",
+        "37": "Title-ID not found. Caused by code 0x410 when applet launch fails.",
+        "500": "Invalid input.",
+        "502": "IStorage has already been opened by another accessor.",
+        "503": "IStorage Read/Write out-of-bounds.",
+        "506": "Invalid parameters.",
+        "511": "IStorage opened as wrong type (data opened as transfermem, transfermem opened as data).",
+        "512": "Unbalanced fatal section leave (returned when executing LeaveFatalSection without a preceding EnterFatalSection call).",
+        "518": "Null object.",
+        "600": "Failed to allocate memory for IStorage.",
+        "712": "Thread stack pool exhausted (out of memory).",
+        "974": "DebugMode not enabled.",
+        "980": "am.debug!dev_function setting needs to be set / DebugMode not enabled.",
+        "998": "Not implemented."
+    },
+    "129": {
+        "name": "Prepo",
+        "102": "Transmission not agreed.",
+        "105": "Network unavailable.",
+        "1005": "HTTP error: Couldnt resolve proxy.",
+        "1006": "HTTP error: Couldnt resolve host.",
+        "1007": "HTTP error: Couldnt connect.",
+        "1023": "HTTP error: Write error.",
+        "1026": "HTTP error: Read error.",
+        "1027": "HTTP error: Out of memory.",
+        "1028": "HTTP error: Operation timedout.",
+        "1035": "HTTP error: SSL connect error.",
+        "1051": "HTTP error: Peer failed verification.",
+        "1052": "HTTP error: Got nothing.",
+        "1055": "HTTP error: Send error.",
+        "1056": "HTTP error: Recv error.",
+        "1058": "HTTP error: SSL cert problem.",
+        "1059": "HTTP error: SSL cipher.",
+        "1060": "HTTP error: SSL CA cert.",
+        "2400": "Server error: Status 400.",
+        "2401": "Server error: Status 401.",
+        "2403": "Server error: Status 403.",
+        "2500": "Server error: Status 500.",
+        "2503": "Server error: Status 503.",
+        "2504": "Server error: Status 504."
+    },
+    "130": {
+        "name": "Ahid"
+    },
+    "131": {
+        "name": "Applet",
+        "5": "Unrecognized applet ID."
+    },
+    "132": {
+        "name": "Ae"
+    },
+    "133": {
+        "name": "Pcv",
+        "2": "Invalid DVFS table ID.",
+        "3": "DVFS table ID for debug only.",
+        "4": "Invalid parameter."
+    },
+    "134": {
+        "name": "Usb_Pd"
+    },
+    "135": {
+        "name": "Bpc"
+    },
+    "136": {
+        "name": "Psm"
+    },
+    "137": {
+        "name": "Nim",
+        "10": "Already initialized.",
+        "30": "Task not found.",
+        "40": "Memory allocation failed / bad input.",
+        "330": "ContentMetaType doesn't match SystemUpdate.",
+        "5001": "One of the following socket errors occurred: ENETDOWN, ECONNRESET, EHOSTDOWN, EHOSTUNREACH, or EPIPE. Also occurs when the received size doesn't match the expected size (recvfrom() ret with meta_size data receiving).",
+        "5010": "Socket was shutdown() due to the async operation being cancelled.",
+        "5020": "Too many internal output entries with nim cmd42, system is Internet-connected, or an unrecognized socket error occured.",
+        "5100": "Connection timeout.",
+        "5410": "Invalid ID.",
+        "5420": "Invalid magicnum. Can also be caused by the connection being closed by the peer, since non-negative return values from recv() are ignored in this case.",
+        "5430": "Invalid data_size.",
+        "5440": "The input ContentMetaKey doesn't match the ContentMetaKey in state.",
+        "5450": "Invalid meta_size.",
+        "7001": "HTTP invalid response code (>=600).",
+        "7002": "HTTP invalid client response code (4xx).",
+        "7003": "HTTP invalid server response code (5xx).",
+        "7004": "HTTP invalid redirect response code (3xx).",
+        "7800": "Unknown/invalid libcurl error."
+    },
+    "138": {
+        "name": "Psc",
+        "3": "NotInitialized"
+    },
+    "139": {
+        "name": "Tc"
+    },
+    "140": {
+        "name": "Usb",
+        "1": "ResultInterfaceInvalid",
+        "5": "ResultMemAllocFailure",
+        "8": "ResultInternalStateError",
+        "15": "ResultEndpointStateInvalid",
+        "21": "ResultUrbLimitExceeded",
+        "48": "ResultInvalidDeviceState",
+        "49": "ResultUsbEndpointAlreadyOpen",
+        "50": "ResultInvalidAlternateSetting",
+        "51": "USB data-transfer in progress.",
+        "67": "ResultPlatformInvalid",
+        "100": "ResultInvalidArgument",
+        "103": "ResultInvalidAlignment",
+        "106": "Invalid descriptor.",
+        "201": "ResultOperationDenied"
+    },
+    "141": {
+        "name": "Nsd"
+    },
+    "142": {
+        "name": "Pctl",
+        "223": "IsAnyInternetRequestAccepted with the output from GetClientId returned false."
+    },
+    "143": {
+        "name": "Btm"
+    },
+    "144": {
+        "name": "La",
+        "1": "Exited Abnormally (ExitReason == Abormal).",
+        "3": "Canceled (ExitReason == Canceled).",
+        "4": "Rejected.",
+        "5": "Exited Unexpectedly (ExitReason == Unexpected)."
+    },
+    "145": {
+        "name": "Es"
+    },
+    "146": {
+        "name": "Ngc"
+    },
+    "147": {
+        "name": "Erpt",
+        "1": "NotInitialized",
+        "2": "AlreadyInitialized",
+        "3": "OutOfArraySpace",
+        "4": "OutOfFieldSpace",
+        "5": "OutOfMemory",
+        "6": "NotSupported",
+        "7": "InvalidArgument",
+        "8": "NotFound",
+        "9": "FieldCategoryMismatch",
+        "10": "FieldTypeMismatch",
+        "11": "AlreadyExists",
+        "12": "CorruptJournal",
+        "13": "CategoryNotFound",
+        "14": "RequiredContextMissing",
+        "15": "RequiredFieldMissing",
+        "16": "FormatterError",
+        "17": "InvalidPowerState",
+        "18": "ArrayFieldTooLarge",
+        "19": "AlreadyOwned"
+    },
+    "148": {
+        "name": "Apm"
+    },
+    "149": {
+        "name": "Cec"
+    },
+    "150": {
+        "name": "Profiler"
+    },
+    "151": {
+        "name": "Eupld"
+    },
+    "152": {
+        "name": "Lidbe"
+    },
+    "153": {
+        "name": "Audio",
+        "1": "ResultNotFound",
+        "2": "ResultOperationFailed",
+        "3": "ResultInvalidSampleRate",
+        "4": "ResultInsufficientBuffer",
+        "8": "Too many buffers are still unreleased.",
+        "10": "ResultInvalidChannelCount",
+        "513": "ResultNotSupported",
+        "1536": "Invalid handle.",
+        "1540": "Audio output was already started."
+    },
+    "154": {
+        "name": "Npns"
+    },
+    "155": {
+        "name": "Http"
+    },
+    "156": {
+        "name": "Idle"
+    },
+    "157": {
+        "name": "Arp",
+        "30": "Address is NULL.",
+        "31": "PID is NULL.",
+        "42": "Already bound.",
+        "102": "Invalid PID."
+    },
+    "158": {
+        "name": "Updater",
+        "2": "BootImagePackageNotFound",
+        "3": "InvalidBootImagePackage",
+        "4": "TooSmallWorkBuffer",
+        "5": "NotAlignedWorkBuffer",
+        "6": "NeedsRepairBootImages"
+    },
+    "159": {
+        "name": "Swkbd",
+        "1": "ResultCanceled"
+    },
+    "160": {
+        "name": "Netdiag"
+    },
+    "161": {
+        "name": "Nfc_Mifare"
+    },
+    "162": {
+        "name": "Err",
+        "1": "ApplicationAborted",
+        "2": "SystemModuleAborted",
+        "3": "ApplicationExitTimeout",
+        "4": "ForcedShutdownDetected",
+        "100": "UnacceptableApplicationVersion",
+        "101": "UnacceptableAddOnContentVersion"
+    },
+    "163": {
+        "name": "Fatal",
+        "5": "InRepairWithoutVolHeld",
+        "6": "InRepairWithoutTimeReviserCartridge"
+    },
+    "164": {
+        "name": "Ec",
+        "56": "ResultInternetRequestNotAccepted"
+    },
+    "165": {
+        "name": "Spsm"
+    },
+    "166": {
+        "name": "Aoc"
+    },
+    "167": {
+        "name": "Bgtc"
+    },
+    "168": {
+        "name": "Creport",
+        "0": "UndefinedInstruction",
+        "1": "InstructionAbort",
+        "2": "DataAbort",
+        "3": "AlignmentFault",
+        "4": "DebuggerAttached",
+        "5": "BreakPoint",
+        "6": "UserBreak",
+        "7": "DebuggerBreak",
+        "8": "UndefinedSystemCall",
+        "9": "MemorySystemError",
+        "99": "IncompleteReport"
+    },
+    "169": {
+        "name": "Sasbus"
+    },
+    "170": {
+        "name": "Pl"
+    },
+    "171": {
+        "name": null
+    },
+    "172": {
+        "name": "Audioctrl"
+    },
+    "173": {
+        "name": "Lbl"
+    },
+    "174": {
+        "name": null
+    },
+    "175": {
+        "name": "Jit",
+        "2": "Bad version returned from calling the \"nnjitpluginGetVersion\" symbol.",
+        "101": "Input NRO/NRR are too large for the storage buffer.",
+        "600": "Symbol funcptr used by this cmd is not initialized (Control/GenerateCode).",
+        "601": "DllPlugin Not initialized, or plugin NRO has already been loaded.",
+        "602": "An error was returned from calling the symbol funcptr with the Control cmd."
+    },
+    "176": {
+        "name": "Hdcp"
+    },
+    "177": {
+        "name": "Omm"
+    },
+    "178": {
+        "name": "Pdm",
+        "100": "Invalid user ID.",
+        "101": "User does not exist.",
+        "150": "Service unavailable.",
+        "200": "File storage failure."
+    },
+    "179": {
+        "name": "Olsc"
+    },
+    "180": {
+        "name": "Srepo",
+        "5": "Invalid event ID."
+    },
+    "181": {
+        "name": "Dauth",
+        "4007": "Device authentication error: Under maintenance.",
+        "4008": "Device authentication error: Permanant Ban.",
+        "4009": "Device authentication error: Internal server error.",
+        "4017": "Device authentication error: Ban."
+    },
+    "182": {
+        "name": "Stdfu"
+    },
+    "183": {
+        "name": "Dbg"
+    },
+    "184": {
+        "name": null
+    },
+    "185": {
+        "name": null
+    },
+    "186": {
+        "name": "Dhcps"
+    },
+    "187": {
+        "name": "Spi"
+    },
+    "188": {
+        "name": "Avm"
+    },
+    "189": {
+        "name": "Pwm"
+    },
+    "190": {
+        "name": null
+    },
+    "191": {
+        "name": "Rtc"
+    },
+    "192": {
+        "name": "Regulator"
+    },
+    "193": {
+        "name": "Led"
+    },
+    "194": {
+        "name": null
+    },
+    "195": {
+        "name": "Sio"
+    },
+    "196": {
+        "name": "Pcm"
+    },
+    "197": {
+        "name": "Clkrst"
+    },
+    "198": {
+        "name": "Powctl"
+    },
+    "199": {
+        "name": null
+    },
+    "200": {
+        "name": null
+    },
+    "201": {
+        "name": "Audio_Old"
+    },
+    "202": {
+        "name": "Hid",
+        "709": "Npad ID is out of range.",
+        "4121": "ButtonConfigSettings IsFull flag is clear."
+    },
+    "203": {
+        "name": "Ldn",
+        "20": "The [6.0.0+] Authentication challenge failed.",
+        "65": "ResultNetworkNotFound",
+        "66": "ResultConnectionTimeout",
+        "67": "ResultConnectionRejected",
+        "97": "Matching LocalCommunicationId not found in the user-process control.nacp.",
+        "113": "ResultLowerVersion",
+        "114": "ResultHigherVersion"
+    },
+    "204": {
+        "name": "Cs"
+    },
+    "205": {
+        "name": "Irsensor",
+        "120": "IrsensorNotReady",
+        "204": "IR camera invalid handle value.",
+        "212": "IR camera handle pointer is null."
+    },
+    "206": {
+        "name": "Capsrv",
+        "3": "AlbumWorkMemoryError",
+        "8": "AlbumOutOfRange",
+        "12": "AlbumInvalidTimestamp",
+        "13": "AlbumInvalidStorage",
+        "14": "AlbumInvalidFileContents",
+        "21": "AlbumIsNotMounted",
+        "23": "AlbumFileNotFound",
+        "24": "AlbumInvalidFileData",
+        "30": "AlbumReadBufferShortage",
+        "1401": "InternalAlbumLimitationFileCountLimit"
+    },
+    "207": {
+        "name": null
+    },
+    "208": {
+        "name": "Manu"
+    },
+    "209": {
+        "name": "Atk"
+    },
+    "210": {
+        "name": "Web"
+    },
+    "211": {
+        "name": "Lcs"
+    },
+    "212": {
+        "name": "Grc"
+    },
+    "213": {
+        "name": "Repair"
+    },
+    "214": {
+        "name": "Album"
+    },
+    "215": {
+        "name": "Rid"
+    },
+    "216": {
+        "name": "Migration"
+    },
+    "217": {
+        "name": "Migration_Idc"
+    },
+    "218": {
+        "name": "Hidbus",
+        "2": "StatusManager entry IsValid flag not set, or controller-update currently in-progress.",
+        "3": "Controller-update failed via the LibraryApplet.",
+        "4": "Invalid BusHandle.",
+        "5": "StatusManager entry flag +0x0 not set, or device not connected.",
+        "7": "PollingReceivedData not available.",
+        "8": "StatusManager entry DeviceEnabled flag not set, or flag +0x0 not set.",
+        "9": "ExternalDeviceId mismatch.",
+        "10": "BusHandle already initialized."
+    },
+    "219": {
+        "name": "Ens"
+    },
+    "220": {
+        "name": null
+    },
+    "221": {
+        "name": null
+    },
+    "222": {
+        "name": null
+    },
+    "223": {
+        "name": "Websocket"
+    },
+    "224": {
+        "name": null
+    },
+    "225": {
+        "name": null
+    },
+    "226": {
+        "name": null
+    },
+    "227": {
+        "name": "Dcdmtp"
+    },
+    "228": {
+        "name": "Pgl"
+    },
+    "229": {
+        "name": "Notification"
+    },
+    "230": {
+        "name": "Ins"
+    },
+    "231": {
+        "name": "Lp2p",
+        "130": "Nullptr passed to the LocalCommunicationId control.nacp validation func.",
+        "160": "GroupInfo field out of range.",
+        "161": "SupportedPlatform not appropriate for this operation.",
+        "163": "Invalid ServiceName.",
+        "164": "Must provide PresharedBinaryKey.",
+        "224": "Requested Priority value not allowed.",
+        "225": "Matching LocalCommunicationId not found in the user-process control.nacp.",
+        "256": "Invalid flag.",
+        "258": "Invalid SupportedPlatform.",
+        "260": "Invalid StaticAesKeyIndex.",
+        "261": "MemberCountMax cannot be greater than 8.",
+        "264": "GroupInfo+8F must be 0x20."
+    },
+    "232": {
+        "name": "Rcd"
+    },
+    "233": {
+        "name": "Icm40607"
+    },
+    "234": {
+        "name": null
+    },
+    "235": {
+        "name": "Prc"
+    },
+    "236": {
+        "name": null
+    },
+    "237": {
+        "name": "Tma_Htc"
+    },
+    "238": {
+        "name": "Ectx"
+    },
+    "239": {
+        "name": "Mnpp"
+    },
+    "240": {
+        "name": "Hshl"
+    },
+    "241": {
+        "name": null
+    },
+    "242": {
+        "name": "Capmtp"
+    },
+    "243": {
+        "name": null
+    },
+    "244": {
+        "name": "Dp2hdmi"
+    },
+    "245": {
+        "name": "Cradle"
+    },
+    "246": {
+        "name": "Sprofile"
+    },
+    "247": {
+        "name": null
+    },
+    "248": {
+        "name": null
+    },
+    "249": {
+        "name": null
+    },
+    "250": {
+        "name": "Ndrm"
+    },
+    "251": {
+        "name": null
+    },
+    "252": {
+        "name": null
+    },
+    "253": {
+        "name": null
+    },
+    "300": {
+        "name": null
+    },
+    "301": {
+        "name": null
+    },
+    "302": {
+        "name": null
+    },
+    "303": {
+        "name": null
+    },
+    "304": {
+        "name": null
+    },
+    "305": {
+        "name": null
+    },
+    "306": {
+        "name": null
+    },
+    "307": {
+        "name": null
+    },
+    "308": {
+        "name": null
+    },
+    "309": {
+        "name": null
+    },
+    "310": {
+        "name": null
+    },
+    "311": {
+        "name": null
+    },
+    "312": {
+        "name": null
+    },
+    "313": {
+        "name": null
+    },
+    "314": {
+        "name": null
+    },
+    "315": {
+        "name": null
+    },
+    "316": {
+        "name": null
+    },
+    "317": {
+        "name": null
+    },
+    "318": {
+        "name": null
+    },
+    "319": {
+        "name": null
+    },
+    "320": {
+        "name": null
+    },
+    "321": {
+        "name": null
+    },
+    "499": {
+        "name": "Tspm"
+    },
+    "500": {
+        "name": "Devmenu"
+    }
+}
